@@ -1,0 +1,51 @@
+---
+title: "Gallery"
+format: html
+
+---
+<head> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<style>
+h1 {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 48px;
+  color: #d63384;
+}
+.scrapbook {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.scrapbook img {
+  width: 200px;
+  height: auto;
+  border: 4px solid white;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+  transform: rotate(-2deg);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.scrapbook img:nth-child(odd) {
+  transform: rotate(3deg);
+}
+</style>
+
+
+<img src="images/frame-1.png" alt="Memory 1">
+<img src="images/frame-2.png" alt="Memory 2">
+<img src="images/frame-3.png" alt="Memory 3">
+<img src="images/frame-4.png" alt="Memory 4">
+<img src="images/frame-5.png" alt="Memory 5">
+<img src="images/frame-6.png" alt="Memory 6">
+
+
+ <button onclick="window.history.back()">뒤로</button>
+
+
+</head>

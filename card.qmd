@@ -1,0 +1,131 @@
+---
+title: "Happy Mother's Day!"
+output: 
+  html_document:
+    self_contained: true
+---
+
+<head> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #fff0f5;
+  text-align: center;
+  padding-top: 40px;
+}
+h1 {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 48px;
+  color: #d63384;
+}
+.emoji {
+  font-size: 48px;
+  margin: 20px;
+}
+.button {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.button img:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s;
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+  border-radius: 8px;
+}
+
+
+</style>
+
+
+<div id="main-message">
+
+  <img src="images/lace_card.png" style="height: 500px;">
+</div>
+    
+
+<div id="main-message">
+
+  <img src="images/ribbon.png" style="height: 300px;">
+</div>  
+
+
+<style>
+.tab {
+  overflow: hidden;
+  border-bottom: 2px solid #ccc;
+  text-align: center;
+}
+.tab {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  height: 100vh;   
+  gap: 20px;
+}
+.tab button {
+  background-color: #f8c4da;
+  border: none;
+  padding: 14px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 4px;
+}
+.tab button:hover {
+  background-color: #f4a2c0;
+}
+.tabcontent {
+  display: none;
+  padding: 20px;
+  border-top: none;
+}
+
+#envelope-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+#envelope-button img {
+  height: 80px;
+  transition: transform 0.2s;
+}
+
+#envelope-button img:hover {
+  transform: scale(1.1);
+}
+</style>
+
+
+<a href="gallery.html">
+  <img src="images/flower.png" alt="Open Gallery" style="height: 100px;">
+</a>
+
+<a href="cats.html">
+  <img src="images/charm.png" alt="Open Gallery" style="height: 100px;">
+</a>
+
+
+
+<script>
+function openTab(evt, tabName) {
+  var i, tabcontent;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  document.getElementById(tabName).style.display = "block";
+}
+</script>
+
+</head>
+
+

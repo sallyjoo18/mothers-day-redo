@@ -1,0 +1,8 @@
+---
+title: "cats"
+format: html
+---
+
+<img src="images/juno_card.jpg" alt="주노랑 나나가">
+
+ <button onclick="window.history.back()">뒤로</button>
